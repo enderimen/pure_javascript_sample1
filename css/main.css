@@ -9,8 +9,39 @@ body {
 
 	font-family: 'Nanum Brush Script', cursive;
 	font-size: 36px;
-	text-transform: uppercase;
+	color: #fff;
 	background-image: url(../img/bg.jpg); 
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+.keys{
+	height: 120px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 10% auto;
+	transition: all 0.1s;
+}
+
+.sound{
+	color: #ffc600;
+	display: block;
+}	
+
+.keys .key{
+	height: 120px;
+	width: 120px;
+	margin-left: 20px;
+	border: 5px solid #000000;
+	border-radius: 5px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.8);
+}
+
+.keys .key:hover{
+	border: 5px solid #ffeb3b;
+	cursor: pointer;
+	box-shadow: 0 0 10px #ffc600;
+	transform: scale(1.2);
 }
