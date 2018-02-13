@@ -1,0 +1,16 @@
+* {
+
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+
+	font-family: 'Nanum Brush Script', cursive;
+	font-size: 36px;
+	text-transform: uppercase;
+	background-image: url(../img/bg.jpg); 
+	background-size: cover;
+	background-repeat: no-repeat;
+}
