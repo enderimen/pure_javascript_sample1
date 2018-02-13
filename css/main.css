@@ -6,7 +6,6 @@
 }
 
 body {
-
 	font-family: 'Nanum Brush Script', cursive;
 	font-size: 36px;
 	color: #fff;
@@ -39,8 +38,8 @@ body {
 	background-color: rgba(0,0,0,0.8);
 }
 
-.keys .key:hover{
-	border: 5px solid #ffeb3b;
+.playing{
+	border: 5px solid #ffeb3b !important;
 	cursor: pointer;
 	box-shadow: 0 0 10px #ffc600;
 	transform: scale(1.2);
